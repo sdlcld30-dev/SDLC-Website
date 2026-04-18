@@ -7,6 +7,7 @@ export function Hero() {
     <section id="home" className="relative min-h-[70vh] flex items-center justify-center overflow-hidden py-12">
       {/* Background Elements */}
       <div className="absolute inset-0 -z-10">
+        <div className="absolute inset-0 bg-[url('/building.png')] bg-cover bg-center opacity-[0.03] grayscale" />
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-emerald-100/50 rounded-full blur-3xl -translate-y-1/2 translate-x-1/4" />
         <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-blue-50/50 rounded-full blur-3xl translate-y-1/2 -translate-x-1/4" />
       </div>

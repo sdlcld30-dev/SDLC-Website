@@ -26,13 +26,14 @@ export function About() {
           viewport={{ once: true }}
           className="relative"
         >
-          <div className="aspect-[4/3] rounded-3xl overflow-hidden border-8 border-white shadow-2xl shadow-emerald-100/50">
+          <div className="aspect-[4/3] rounded-3xl overflow-hidden border-8 border-white shadow-2xl shadow-emerald-100/50 group relative">
             <img
-              src="https://picsum.photos/seed/talash/800/600"
-              alt="Center"
-              className="w-full h-full object-cover"
+              src="/building.png" 
+              alt="Skills Development & Livelihood Center Building"
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               referrerPolicy="no-referrer"
             />
+            <div className="absolute inset-0 bg-emerald-900/10 group-hover:bg-transparent transition-colors duration-500" />
           </div>
           <div className="absolute -bottom-6 -right-6 bg-emerald-600 p-8 rounded-3xl text-white shadow-xl hidden md:block">
             <div className="text-3xl font-black">10+</div>

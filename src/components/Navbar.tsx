@@ -128,7 +128,7 @@ export function Navbar() {
                 <div className="mt-0.5 bg-emerald-50 p-2 rounded-lg text-emerald-600 group-hover:bg-emerald-100 transition-colors">
                   <MapPin size={14} />
                 </div>
-                <span className="group-hover:text-slate-900 transition-colors">Shamshi Khan Talash Lower Dir</span>
+                <span className="group-hover:text-slate-900 transition-colors">Near Cat-D Hospital Shamshi Khan Talash Lower Dir</span>
               </div>
               <div className="flex items-center gap-3 group cursor-pointer">
                 <div className="bg-emerald-50 p-2 rounded-lg text-emerald-600 group-hover:bg-emerald-100 transition-colors">

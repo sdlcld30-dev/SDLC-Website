@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 
 const items = [
+  { title: "Main Campus", category: "Our Building", img: "/building.png" },
   { title: "Computer Lab", category: "IT Training", img: "https://picsum.photos/seed/lab/600/600" },
   { title: "Sewing Class", category: "Vocational", img: "https://picsum.photos/seed/sewing/600/800" },
   { title: "Workshop", category: "Technical", img: "https://picsum.photos/seed/workshop/800/600" },

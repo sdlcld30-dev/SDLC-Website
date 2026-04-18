@@ -60,7 +60,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-[10px] font-bold uppercase tracking-widest opacity-60 mb-1">Location</p>
-                  <p className="text-sm font-medium">Shamshi Khan Talash Lower Dir, Pakistan</p>
+                  <p className="text-sm font-medium">Near Cat-D Hospital Shamshi Khan Talash Lower Dir, Pakistan</p>
                 </div>
               </div>
               <div className="flex gap-4">
